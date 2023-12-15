@@ -30,7 +30,7 @@
 **Preset: Scratch 2.0**
 
 ## Description: 
-A CSS Recreation on 2.0 style [aka make 3.0 pages look like 2.0]
+Reverts 3.0 pages into 2.0! [alternative description: 2.0ified the 3.0 pages!]
 
 All works made with Stylus.
 
