@@ -84,4 +84,4 @@ Made with Stylus&ast;.
 ![angelotrabuco2013's Stats](https://github-readme-stats.vercel.app/api?username=angelotrabuco2013&theme=default&show_icons=true&hide_border=true&count_private=true)
 [![Ashutosh's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=angelotrabuco2013&bg_color=ffffff&color=8fd697&line=8fd697&point=46b46c&area=true&hide_border=true)](https://github.com/ashutosh00710/github-readme-activity-graph)
 
-Created by <a href="https://github.com/angelotrabuco2013">&commat;angelotrabuco2013</a>
+**Created by <a href="https://github.com/angelotrabuco2013">&commat;angelotrabuco2013</a>**
