@@ -1,28 +1,28 @@
 /* ==UserStyle==
-@name           Scratch 2013afy
-@namespace      https://github.com/gliczide/Rescratcher/
-@supportURL     https://github.com/gliczide/Rescratcher/pulls
-@updateURL      https://github.com/gliczide/Rescratcher/theme.user.css
-@version        1.0.1
-@license        Apache License 2.0
+@name           scratch-www
+@namespace      https://github.com/angelotrabuco2013/scratch-www
+@supportURL     https://github.com/angelotrabuco2013/scratch-www/pulls
+@updateURL      https://github.com/angelotrabuco2013/scratch-www/raw/main/theme.user.css
+@version        2.0.461.2_scratch-www_git_main_angelotrabuco2013_mvto7jol7vqxszaarfj4ki8obxfl1j
+@license        MIT
 @description    Reverts 3.0 pages into 2.0!
-@author         gliczide <gliczide@gmail.com> (https://txti.es/gliczide)
+@author         FrontRub Technology Co., Ltd
 @preprocessor   stylus
 
-@var checkbox purple 'Purplized' 1
-@var checkbox header 'Header (2013-early 2016)' 1
-@var checkbox homepage 'Homepage (2013)' 0
-@var checkbox logo 'Padding logo header (2013)' 0
-@var checkbox avatar 'Padding avatar in studio comments (2013)' 0
-@var checkbox studio 'Big title Project+Studio size (2014-2018)' 1
-@var checkbox texts 'Texts Before (English Only)' 0
+@var checkbox purple 'Enable purple color' 0
+@var checkbox header 'Header (2013-late 2015)' 1
+@var checkbox homepage 'Homepage (2013)' 1
+@var checkbox logo 'Padding logo header (2013)' 1
+@var checkbox avatar 'Padding avatar in studio comments (2013)' 1
+@var checkbox studio 'Big title Project+Studio size (2014-2018)' 0
+@var checkbox texts 'Texts Before (English Only)' 1
 @var checkbox improved 'Bit improved buttons in studio (Curators Only)' 1
-@var checkbox features 'Featured text (Apr 2013 - Jul 2013)' 0
+@var checkbox features 'Featured text (Apr 2013 - Jul 2013)' 1
 @var checkbox early 'Alpha 2.0' 0
 
 ==/UserStyle== */
 @-moz-document domain("scratch.mit.edu") {
-/* scratch 2.0 fizes*/
+/* Shrink search box */
 #topnav form.search input[type=text]{
     width:170px;
     margin-top: 1px;
@@ -266,7 +266,7 @@ if homepage {
     padding: 6px 20px;
     height: 22px; }
 .thumbnail .thumbnail-loves::before, .thumbnail .thumbnail-remixes::before {
-    background-image: url(http://cdn.scratch.mit.edu/scratchr2/static/__1385142220__/images/icons_xs.d77c1366cd05.png);
+    background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACEAAAGkCAYAAAC/7kywAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAC/RJREFUeNrtnUGrJLcRgN9P0Dkn/YT+BxHkEF8CDXuP+7ynvsTn/gExfd1bH2LIUffFQTY4EIOdzobEOCFrBQfCYoMF8cJC9iC3htJQq6ee6R66SsNMFxRvumfe0zelkh5dJZUeHnbZ5UJ5771fyknbSfWkBmk/qeIACA35MzpOWlEBmAUAUd3mINMfbFYAHC1Sohse6U1CqAsgBgrHXOMXYYQIqhGiFowSQwaQmbDqSTvQFKwpNZOG7hoASJNNWFcnH//hk2pSFZWzYTnpMKmb1GfUTFpTAjQnGk91oLKAX6nd1hD9BRBuawhzAYTfGqK9AMJuDSEmHVdC1BTOKRZ2SxhBDfVcoWCumLNMuC9KzJ518IEEpCo1lUuw1J388wrivVeTdkjbcI+r8dCg8/NiAxBV42LS0S+XgcoCa6XZGsJeAGG2hnDXADFcANGVdszwWUE1QpZYRJMAJDASJqcAZEDprbBwBtXIgU0RkF3uU342fK0mHSa1k3qkFu4raoAhaXhOh9IANCDTH6xWAkSttvaDSyDUbUEAyLgSYKRwTLECJHxOUA7T5gyMIwWY8RUFYC6xRFVqNq0n7UDv6FFwl+KCUpIhul/DPQEB9g7eE5QANWT60vzGSJ4NRN/Wrcj+GAoIVTQRdzUQAFK2OwCiWwGhKEfIkpx5Tz1PiMyQpE3KngDRxQASmB5NTk3Jaby+nxzoVQpKzEp0jyfCP5P96TPZQkOWeFmZFTQUAJckaMXWEOoCiIrCGq5YhhhBdMVy5cnoWJKkHTmG6SkQnrzoCRDexCyAaASgi2SGkbO29/fPy3tfoxxHSC1UoBrdrykBcmlJN5OkaygAxMoknKOAUBdkA9XWEPICCEFhDVMsMYsgqqX+ED5LOUIa9kT9BSAN56TVJPODYwVIfMRCRrgqOY2LPRN83/LfX6luUjepn9ROWoNauBfe6ygBemhoifYUAGIFwEEpINRaiPA7t2cJABlWQAxUEBKNjFMaPiMoR0h1BiS8V3HMFXMgPAAJiEUAlhUgGTFmUk3qA7vsckF8oi8en4Dl82NJgAqFi2TJUFGEaLkavYqIrlwY6Tfkkbwz4eWO0x9G9nByplvmLCG5IFq8yQiuHfcoGdN9PTBnhHuaC6KZuS/It19drcCqoro0RFjGoEsCCLRsQZTsCt5t3EnRi6AWQdj0fSqIeuEKI0fqrLD2bjyzzV9yjgrawhcrRgX9KrMFo0InK41qLggNzteiey33Oqsht6Io3CNfbXa1Agm6qjSEJtkbugJAkOVAV0DUKPNTczXaJYpTlCZ9nwqiX5EX7am7wJ3JidZcDmlntnMLTqd0LCsFFo4Km1hFcUHELbxDTEnCpEXrkAnEmMsGQ9bYPOxSbOr+6ud90NIQdtKxJEA1qQeVJbsiQrRcjTrU6Dl1VBBiUrMAIHxGUFukOwHQcvrDmAEYOQHkCUtILog2Ot+kDajjHiUjqEzmjJGtS8I3v+S9XTYXiPD3SaphhHuSC8LFSn+oDGGLimo1XCAKFosb0AGVHfOkpQgBoANr9MgKsWtqgLLU/uCh4QpZI/qIBRBPtgEJ7XaJ6/gt/HQoORc/o6ghKtR4DdcDQJFDiFh6Ehp2aLREn+jJErMIpEd+IeFnfB3BOo4hOqBJqoOMYE9WoPOMf/RoruhZa6fuEgX2mHcoy9OxlD5HACME1wdU1liTlz7PWAFXXugg9aAQYMUB4aBBbAUL71myJByCiF2R1pxw4B8xISMpreChOwZkEYe2dyvSbf4JRMyL4rrbjgNCxmwwNO7REHWoazx1SRATRwCAGOQLAqwzUDumhIbiN6+g8Rr8Y+SqwS4AIM2Vd8VWD9yvwF6fDlWF7NjSTwCgUQ3MmGrSKOJfc1lBQjA9QjRw37Ak5dC2Kws5MY32jFaQAXDUECamEyD5Ei0xApgiT75Ec0O5Uo+7AH5WJJVjZyBijeUGRkmEkBwQDhqtUJHWFn4aru6I+a8GFWuNc4WA1yO1Y+KivkP8xgBkyDesJjBtUmE4dpN82GUXbvn/73+hJtWTeqQO7ikuiNDgMGkF12LSelIDQD0XSDfpiCwxAkgL1x01QA/WaKBrcPc08NpRAkjUWIWs0UN3WLCIJ/MP+NYe/MAAxACNd7FxLojYBQ6+uYTrEX2moh4dGhq2yDEddNHBMhwjw0NjAjmnAF85+AzXEPVozujQPNFyzpwS5oUONLze/43vwitLz5K8K4gRwoRZ5YIwK2qnqh3ipiEqcL6qGEQCtEPssstRICnfnVNqCMN+fuQJCIdWCjxSLggDyxa6BSopIZYWcFU7BBVEj5atlIFIgHaICFFmiF6NQKJFnVNqiEWVQu8KwmROWp1TSQnRlSpju0NEiB4A+mIQCdAOESEaVF/7lFb7swrlE7mIazJLAjj2WhMJRJs7WgmtwRvIV5zlINDKRNozn5LuwOvt6tzpWNQQcUVqXPDXsloConYuUxRHoAWitCuVk27waGFok8C9UzBlS4A6E5nrklIxqbZbQzSZ4knnDq5zHHOGKh7HRNP3KRUPNy3p4VPcjacHyjSlYpmPCjCifWEDuYUyEBas40oeNNTkDqbigOhRULXNlKkk3SFZzdRMrWA7XtyiV1FC5CqDNgBgccFWkhqZSb3cY21UtDeUvnYqQKTBdJlY4FEJW44KslXRECIaKeqM3mgIER6EBcSrZEkAx15SLIFoc6caoeO5BvJ6VjmIzJlQhqM7cO2qOnc6FjWERGv5LViGzxIQXHeZomoSHcNEfvCUzZ10xXb8UlLTLErHehDVTKROnKt/xzFnqKIxzGT6PqU3/gR2zbFN/r2iaN/wiJY8KU4AiYJnrsi6KhQmUklAreLuCo+ue9a6yhgiBtkhsGa5ISQKF5oYVOWGiPFLjeKbjjXqH+OYSSTPcRf9fhTDjjFvbohY8FshR9XcEGk0d2SdtlFs+7hut8Q/rGYvbHB1AtGaDtU6cyUA0vCQ54bANc0GlkBqBmKIjeLQMjeEwXFs8np3MxB9UgNPkkZzTzhmGsntuAEMWCAOT8N97JLKZX7AMoYbYoyhYxTh1dwQPqkA6NicE0H0qDKkZh0dYHrLPiRPBNMUqkavuQHqJFhm2SvRQ9zKJmc3sEP4eIIJskpfAqKbu+aCiPWLFFw37Iv9MoFUzQoBPqBRXHtAlZwkF0RcECrQvRhcbbkhenSvJYlpL4DwqHAS73Eq2BKxkhd7ySAwfblTjna5CoGwIS7IeU4rCogYLrQL1twZkjAz+sP2RPEDh1aukm5u9yjF4M/cI4VIv/U4Yx1yiBF1jUW1VNkg9Myq1PS4TxIIt6Aih0W+sTlEu7QkCOoeQTFXqBUq9yn+tgVCQsPCHbMWPiu2hsC7qc8BWOot3R4dFpE7u95y7CvH57i4E9csEPHMDouWS3tOCIeWy9rMPXIIe8I5HViFDEJnHG9ONUk4EULJ+lQBjETbfXbdhetpfMkqM0W2kBgtCLUL9w4bipWIauZ419zpu5okrpmsOrQzxQ9cUvSZFCLXYA6MHCL2uwaAIbNIlBxCo0YtiuQ5Dgh3phiGQVAkEOcAsH+MJFF/CB2ahar3Uui77FLyAbmChx8NOfOGfPNZ0vjhueOzP/7Jf/nnv/jPP/+Cdl9gAtDE581vv/3PO1Pk/3780X/y6Wf4uUNQARwaefHXvx0a/sG5w+tvvvn38ZpsBy08+ByfuL/77vtDo+ibHy2D7wVf2TpKc/zj4RsHwfeiNYKf4GfTLSHe2Tv8j3/+69BgaDhcB+d8+/atf/PmzaNNrRSj4tAlweTBEbEEiOAfJF2R8Y2jRf7+1dcHawRNuqHhmCu6EzGrinvWvJMNqrsslSRPyru9AhaPH9JM77//a//BB7/BCReW+kWHDOCTJ0/8ixcvjpPV69ev/Ycf/taTF83BidcIoLX2H330O//q1avD9dOnT+lA0KmZh4YiQLwXuiVIAEpyp3JLiOMfDz6QaTB7b9PKPbjQd/CH4AMvX748vA73QuNBkF8cCyyR+URoLJUAlRZYonLOHnfL8+fPD0767Nmzo1VYTuFFB9zmli503NtuKjRj1vvul5uSnwArskz5P3+DLQAAAABJRU5ErkJggg==");
     background-position: -7px -58px;
     background-size: 2.06rem;
     position: relative;
@@ -593,7 +593,7 @@ a[href="/accounts/password_reset/"]:hover {
 #view {
     margin-top: 35px; } }
 /* fix home & 2.0 pages */
-/* you know what? screw you. *unpurplized your header* */
+/* The header may get depurplized for some reason, on some pages. */
 #topnav .innerwrap, #topnav ul.account-nav .logged-in-user .dropdown-menu, #topnav li.logout.divider input {
     background-color: #0f8bc0; }
 #topnav ul.site-nav li, #topnav ul.site-nav li.last, #topnav ul.account-nav.logged-in>li, #topnav ul.account-nav ul.user-nav li.logout.divider {
