@@ -17,6 +17,8 @@
 + The April Fool&apos;s languages <q>MEOW</q> and <q>Edible Scratch</q> are no longer available due to the translation system being unable to recognize joke languages.
 + The remix tree icon will not display correctly in the project page.
 + The sprites &amp; scripts count does not resemble the ones seen in the Scratch 2.0 project page.
++ The 2.0 fonts have been replaced with the 3.0 ones. Unfortunately, the Scratch (Black boys on mopeds) font got removed after the 3.0 update in 2019. This is because the MIT Media Lab was infringing copyrights between pizzadude, which was founded by Jakob Fischer and the creator of the <q>Black boys on mopeds</q> font, used for the Scratch logo and other stuff that use the font. The font was removed in 3.0 due to the previously mentioned reason, but it will still display correctly on Scratch projects created in versions prior to 3.0. PenguinMod brought back the font, albeit without using the <q>Black boys on mopeds</q> name to protect from copyright infringement. On January 2, 2018, myeducate on Scratch (<https://scratch.mit.edu>) contacted pizzadude about the situation, and Jakob responded that MIT purchased the rights to the aforementioned font (named Black boys on mopeds). But, if the Scratch font comes back in a future update, pizzadude (Jakob Fischer) would sue Scratch and the Massachusetts Institute of Technology. However, the font can be downloaded <a href="https://www.dafont.com/black-boys-on-moped.font">here</a>. You can also extract the font's zip file to install the font. (This is needed for use on the web.)
++ The frontpage does not have the 2.0 stuff in the top of the page, such as the mascots, links, etc.
 
 ## Scratch Addons settings (required):
 + Automatically add extensions <br/>
