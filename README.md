@@ -5,7 +5,7 @@
 
 ---
 
-### Build tag: 2.0.461.2_scratch-www_git_main_angelotrabuco2013_mvto7jol7vqxszaarfj4ki8obxfl1j
+### Build tag: 2.0.461.2_scratch-www_git_main_angelotrabuco2013_gu7mg7df203xama5b6qydlczo1p8ulk_121923
 
 > [!WARNING]  
 > Scratch Addons must be installed first. This makes the accurancy rate increase to 100%, although there are the following imperfections:
@@ -16,7 +16,7 @@
 + Some aspects of the editor, player &amp; website have the 3.0 ones for some reason.
 + The April Fool&apos;s languages <q>MEOW</q> and <q>Edible Scratch</q> are no longer available due to the translation system being unable to recognize joke languages.
 + The remix tree icon will not display correctly in the project page.
-+ The sprites &amp; scripts count does not resemble the ones seen in Scratch 2.0 project page.
++ The sprites &amp; scripts count does not resemble the ones seen in the Scratch 2.0 project page.
 
 ## Scratch Addons settings (required):
 + Automatically add extensions <br/>
@@ -50,16 +50,16 @@ Made with Stylus&ast;.
 &ast; Had some bugs reported on its GitHub repository
 
 > [!CAUTION]
-> The project editor and frontpage will not display correctly on any Scratch mod based on TurboWarp (e.g. <a href="https://studio.penguinmod.com/editor.html">PenguinMod</a>, <a href="https://dinosaurmod.github.io/editor.html">DinosaurMod</a>, <a href="https://shredmod.is-an.app/editor.html">ShredMod</a>, etc.) Using Scratch is recommended.
+> The project editor and frontpage will not display correctly on any Scratch mod based on TurboWarp (e.g. <a href="https://studio.penguinmod.com/editor.html">PenguinMod</a>, <a href="https://dinosaurmod.github.io/editor.html">DinosaurMod</a>, <a href="https://shredmod.is-an.app/editor.html">ShredMod</a>, etc.) Using Scratch is recommended, although it will slow down some large projects, such as projects containing 3D content, games, etc. Slowdowns decrease the FPS from 30 to 25-0. Extreme slowdowns (10-0 FPS) would cause the project to lag too much or crash the page.
 
 > [!NOTE]  
-> You need to get Stylus to install this userstyle.
+> You need to get Stylus to install this userstyle. <a href="https://chromewebstore.google.com/detail/clngdbkpkpeebahjckkjfobafhncgmne">Get Stylus</a>
 
 > [!TIP]
 > If you wish to manually go to the Discuss page, visit <https://scratch.mit.edu/discuss>.
 
 > [!WARNING]  
-> Some pages already have a Scratch 2.0 style, however the search box is not smaller.
+> Some pages already have a Scratch 2.0 style, however the search box is not shrunk to 170 pixels as smaller size, making it not resemble the ones seen in Scratch 2.0's old header (2013-2015).
 
 
 ## Credits:
