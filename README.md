@@ -1,6 +1,6 @@
 ![Preview](https://raw.githubusercontent.com/gliczide/Rescratcher/main/preview.png)
 <p align="center">
-  <img src="https://raw.githubusercontent.com/angelotrabuco2013/temp/main/FrontRub%20(2).svg" alt="FrontRub logo for New Year 2024"/>
+  <img src="https://github.com/angelotrabuco2013/temp/raw/main/FrontRub.svg" alt="FrontRub logo for New Year 2024"/>
 </p>
 
 ---
