@@ -1,6 +1,8 @@
+Sadly, glicz updated the README to have Unlicense instead of Apache License 2.0. This project will no longer be maintained as a result.
+
 ![Preview](https://raw.githubusercontent.com/gliczide/Rescratcher/main/preview.png)
 <p align="center">
-  <img src="https://github.com/angelotrabuco2013/temp/raw/main/FrontRub.svg" alt="FrontRub logo for New Year 2024"/>
+  <img src="https://github.com/angelotrabuco2013/Remix/raw/main/images/logo.svg" alt="FrontRub logo for New Year 2024"/>
 </p>
 
 ---
