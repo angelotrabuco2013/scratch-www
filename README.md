@@ -1,4 +1,6 @@
-Sadly, glicz updated the README to have Unlicense instead of Apache License 2.0. Because of this, this project is now in a deprecated state, which means that contributions will no longer be possible, and you will no longer be able to open any issues or pull requests.
+> [!IMPORTANT]
+> Unfortunately, &commat;gliczide updated the README to replace Apache License 2.0 with Unlicense in the License section. This project is now in a discontinued state because of this, which means that you will no longer be able to contribute to this repository.
+
 ![Preview](https://raw.githubusercontent.com/gliczide/Rescratcher/main/preview.png)
 <p align="center">
   <img src="https://github.com/angelotrabuco2013/Remix/raw/main/images/logo.svg" alt="FrontRub logo for New Year 2024"/>
@@ -6,7 +8,7 @@ Sadly, glicz updated the README to have Unlicense instead of Apache License 2.0.
 
 ---
 
-### Build tag: 2.0.461.2_scratch-www_git_main_angelotrabuco2013_gu7mg7df203xama5b6qydlczo1p8ulk_121923
+### Build tag: 2.0.461.2_scratch-www_git_main_angelotrabuco2013_f04e4b26bed4450193199a146b1d14ed_122023
 
 > [!WARNING]  
 > Scratch Addons must be installed first. This makes the accurancy rate increase to 100%, although there are the following imperfections:
@@ -46,11 +48,11 @@ Sadly, glicz updated the README to have Unlicense instead of Apache License 2.0.
 **Preset: Scratch 2.0**
 
 ## Description: 
-Reverts 3.0 pages into 2.0! [alternative description: 2.0ified the 3.0 pages!]
+(discontinued) Reverts 3.0 pages into 2.0! [alternative description: 2.0ified the 3.0 pages!]
 
-Made with Stylus&ast;.
+All works made with Stylus&ast;.
 
-&ast; Had some bugs reported on its GitHub repository
+&ast; Stylus had some bugs reported on its GitHub repository
 
 > [!CAUTION]
 > The project editor and frontpage will not display correctly on any Scratch mod based on TurboWarp (e.g. <a href="https://studio.penguinmod.com/editor.html">PenguinMod</a>, <a href="https://dinosaurmod.github.io/editor.html">DinosaurMod</a>, <a href="https://shredmod.is-an.app/editor.html">ShredMod</a>, etc.) Using Scratch is recommended, although it will slow down some large projects, such as projects containing 3D content, games, etc. Slowdowns decrease the FPS from 30 to 25-0. Extreme slowdowns (10-0 FPS) would cause the project to lag too much or crash the page.
