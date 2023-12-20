@@ -1,5 +1,4 @@
-Sadly, glicz updated the README to have Unlicense instead of Apache License 2.0. This project will no longer be maintained as a result.
-
+Sadly, glicz updated the README to have Unlicense instead of Apache License 2.0. Because of this, this project is now in a deprecated state, which means that contributions will no longer be possible, and you will no longer be able to open any issues or pull requests.
 ![Preview](https://raw.githubusercontent.com/gliczide/Rescratcher/main/preview.png)
 <p align="center">
   <img src="https://github.com/angelotrabuco2013/Remix/raw/main/images/logo.svg" alt="FrontRub logo for New Year 2024"/>
